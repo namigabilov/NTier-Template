@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Entities\\Entities.csproj": {}
+    "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Entities/Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Core\\Core.csproj": {
+    "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Core\\Core.csproj",
+        "projectUniqueName": "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Namiq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Core\\obj\\",
+        "projectPath": "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Core/Core.csproj",
+        "packagesPath": "/home/namig/.nuget/packages/",
+        "outputPath": "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Namiq\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/namig/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,7 +40,7 @@
           "dependencies": {
             "MailKit": {
               "target": "Package",
-              "version": "[4.4.0, )"
+              "version": "[4.7.1.1, )"
             },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
@@ -50,7 +48,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
@@ -58,7 +56,11 @@
             },
             "MimeKit": {
               "target": "Package",
-              "version": "[4.4.0, )"
+              "version": "[4.7.1, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -77,36 +79,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Entities\\Entities.csproj": {
+    "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Entities\\Entities.csproj",
+        "projectUniqueName": "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Entities/Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Namiq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Entities\\obj\\",
+        "projectPath": "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Entities/Entities.csproj",
+        "packagesPath": "/home/namig/.nuget/packages/",
+        "outputPath": "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Namiq\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/namig/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Namiq\\Desktop\\MatchX\\MatchX-Admin\\Core\\Core.csproj"
+              "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Core/Core.csproj": {
+                "projectPath": "/home/namig/Desktop/dotnet/SinapsMed/NTier-Template/Core/Core.csproj"
               }
             }
           }
@@ -120,6 +120,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -136,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
